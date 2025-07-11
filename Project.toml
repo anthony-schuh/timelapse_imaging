@@ -1,3 +1,7 @@
+name = "ImageProcessingPipeline"
+uuid = "450cdaff-dfb2-49f2-a097-1c8b4d4ef4c6"
+version = "0.1.0"
+
 [deps]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"

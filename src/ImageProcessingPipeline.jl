@@ -1,4 +1,4 @@
-module MyImagePipeline
+module ImageProcessingPipeline
 
 export process_image
 

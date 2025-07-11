@@ -1,7 +1,8 @@
 #!/usr/bin/env julia
-using Pkg; Pkg.activate(@__DIR__ * "/../")   # point to repo root
+using Pkg
+Pkg.activate(joinpath(@__DIR__, ".."))      # activate the Project.toml one level up
 
-using ArgParse, YAML, MyImagePipeline
+using ArgParse, YAML, ImageProcessingPipeline
 
 # 1. Define CLI args
 s = ArgParseSettings()
